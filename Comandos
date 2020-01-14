@@ -1,0 +1,27 @@
+
+#Tarea Curso Intensivo Bioinformatica
+***
+***
+
+Ejercicios 
+
+Ejercicio 1: Enlista el contenido de Maiz por tamaño del archivo y has que el tamaño del archivo se lea en KB y MB 
+(ie reducido en vez de todos los bytes).
+
+
+bioinfo1@genoma1:~/mbarreto/CBio/BioinfinvRepro-master/Unidad1/Prac_Uni1/Maiz$ ls -h -l
+total 2.6M
+-rw-r----- 1 bioinfo1 genomed 1.5M Jan 13 15:48 nuevos_final.bed
+-rw-r----- 1 bioinfo1 genomed 1.1M Jan 13 15:48 nuevos_final.bim
+-rw-r----- 1 bioinfo1 genomed 3.6K Jan 13 15:48 nuevos_final.fam
+-rw-r----- 1 bioinfo1 genomed 1.8K Jan 13 15:48 nuevos_final.log
+
+***
+
+Ejercicio 2: ¿Qué pasa si intentas crear un directorio que ya existe? ¿Para qué sirve el flag -p?
+mkdir: cannot create directory `Prueba': File exists
+El flag -p omite la creacion de un directorio que ya existe
+
+***
+
+
